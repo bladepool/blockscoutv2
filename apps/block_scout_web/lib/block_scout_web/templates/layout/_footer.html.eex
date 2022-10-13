@@ -56,7 +56,7 @@
       </div>
       <div class="col-xs-12 col-lg-2 box-network">
         <button type="button" class="btn-dark float-right" onclick="addNetwork('web3');">
-          <img class="mr-1" width="15" src="/images/metamask.svg" alt="Metamask"> Add DND Network
+          <img class="mr-1" width="15" src="/images/metamask.svg" alt="Metamask"> Add 3LECHES Network
         </button>
       </div>
 

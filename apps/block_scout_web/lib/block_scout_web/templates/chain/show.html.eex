@@ -2,7 +2,7 @@
   <div class="container">
     <div class="dashboard-banner">
         <div class="dashboard-banner-center">
-            <h1 class="dashboard-banner-title">Explore DND Blockchain</h1>
+            <h1 class="dashboard-banner-title">Explore Tres Leches Blockchain</h1>
             <p class="dashboard-banner-description">A highly scalable and secure blockchain platform with high speed and low transaction cost.</p>
 
             <%= render BlockScoutWeb.LayoutView, "_search.html", conn: @conn, id: "main-search-autocomplete", additional_classes: ["mobile-search-hide"] %>
