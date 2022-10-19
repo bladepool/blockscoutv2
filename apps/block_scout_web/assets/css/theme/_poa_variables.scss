@@ -1,7 +1,7 @@
 // general
 $primary: #f9b253;
 $secondary: #ce0014;
-$tertiary: #fff7ea;
+$tertiary: #0c1ff4;
 $additional-font: #fff;
 
 // footer
@@ -76,7 +76,7 @@ $api-text-monospace-color: $primary;
 // Dark theme
 $dark-primary: #05445E;
 $dark-secondary: #D4F1F4;
-$dark-primary-alternate: #fff7ea; 
+$dark-primary-alternate: #fff7ea;  
 
 .dashboard-banner-center {
   display: block;
@@ -89,7 +89,7 @@ $dark-primary-alternate: #fff7ea;
       font-size: 32px;
       line-height: 39px;
       text-align: center;
-      color: #ce0014;
+      color: #f9b253;
     };
     
   .dashboard-banner-description {

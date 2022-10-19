@@ -3,7 +3,7 @@
     <div class="dashboard-banner">
         <div class="dashboard-banner-center">
             <h1 class="dashboard-banner-title">Explore Tres Leches Blockchain</h1>
-            <p class="dashboard-banner-description">A blockchain so sweet you can actually taste it.</p>
+            <p class="dashboard-banner-description">A cryptocurrency so sweet you can actually taste it.</p>
 
             <%= render BlockScoutWeb.LayoutView, "_search.html", conn: @conn, id: "main-search-autocomplete", additional_classes: ["mobile-search-hide"] %>
         </div>

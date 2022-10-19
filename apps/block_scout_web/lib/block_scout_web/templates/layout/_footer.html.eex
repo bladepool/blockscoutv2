@@ -24,25 +24,25 @@
           <div class="col-xs-12 col-md-6 col-lg-<%= col_size %> footer-list">
             <h3>General</h3>
             <ul>
-              <li><a href="" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("About") %></a></li>
-              <li><a href="" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Whitepaper") %></a></li>
+              <li><a href="https://tresleches.finance/" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("About") %></a></li>
+              <li><a href="https://github.com/3LechesCake/3Leches/blob/c837c222ceb789dca33290a58684414242953d49/Whitepaper/TresLeches_WhitePaper_en.pdf" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Whitepaper") %></a></li>
               <li><a href="" rel="noreferrer" class="footer-link"><%= gettext("Ecosystem") %></a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-<%= col_size %> footer-list">
             <h3>Developer</h3>
             <ul>
-              <li><a href="" rel="noreferrer" class="footer-link"><%= gettext("Technical Docs") %></a></li>
-              <li><a href="" rel="noreferrer" class="footer-link"><%= gettext("Mainnet") %></a></li>
-              <li><a href="" rel="noreferrer" class="footer-link"><%= gettext("Testnet") %></a></li>
+              <li><a href="https://docs.tresleches.finance/" rel="noreferrer" class="footer-link"><%= gettext("Technical Docs") %></a></li>
+              <li><a href="https://explorer.tresleches.finance" rel="noreferrer" class="footer-link"><%= gettext("Mainnet") %></a></li>
+              <li><a href="https://explorer-test.tresleches.finance" rel="noreferrer" class="footer-link"><%= gettext("Testnet") %></a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-<%= col_size %> footer-list">
             <h3>Community</h3>
             <ul>
-              <li><a href="" rel="noreferrer" class="footer-link"><%= gettext("Twitter") %></a></li>
-              <li><a href="" rel="noreferrer" class="footer-link"><%= gettext("Telegram") %></a></li>
-              <li><a href="" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Contact us") %></a></li>
+              <li><a href="https://twitter.com/treslechestoken" rel="noreferrer" class="footer-link"><%= gettext("Twitter") %></a></li>
+              <li><a href="https://t.me/TresLechesCakeOfficial_EN" rel="noreferrer" class="footer-link"><%= gettext("Telegram") %></a></li>
+              <li><a href="mailto:admin@tresleches.finance" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Contact us") %></a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-md-6 col-lg-<%= col_size %> footer-list">
@@ -56,7 +56,7 @@
       </div>
       <div class="col-xs-12 col-lg-2 box-network">
         <button type="button" class="btn-dark float-right" onclick="addNetwork('web3');">
-          <img class="mr-1" width="15" src="/images/metamask.svg" alt="Metamask"> Add 3LECHES Network
+          <img class="mr-1" width="15" src="/images/metamask.svg" alt="Metamask"> Add Tres Leches Network
         </button>
       </div>
 
@@ -70,7 +70,7 @@
             <a href="" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Discord") %>'>
                 <div class="footer-social-icon-container"><img src="/images/discord.png"></div>
             </a>
-            <a href="https://t.me/TresLechesCakeOfficial_EN" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+            <a href="https://t.me/treslechesfinance" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
                 <div class="footer-social-icon-container"><img src="/images/telegram.png"></div>
             </a>
             <a href="https://t.me/treslechesfinance" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram News") %>'>
@@ -93,7 +93,7 @@
             </a>
           
         </div>
-      <p class="text-right">Copyright © All right reserved 2022. Tres Leches Blockchain</p>
+      <p class="text-right">Copyright © All right reserved 2022. Tres Leches Finance</p>
     </div>
 
   </div>
@@ -124,7 +124,7 @@
                 var params;
                 if (isTestnet == "false") {
                     if (netID == "6066") {
-                        alert("Tres Leches has already been added to Metamask.");
+                        alert("Tres Leches Mainnet has already been added to Metamask.");
                         return;
                     } else {
                         params = [{
@@ -141,7 +141,7 @@
                     }
                 } else {
                     if (netID == "6065") {
-                        alert("Tres Leches Testnet has already been added to Metamask.");
+                        alert("Tres Leches Test Network has already been added to Metamask.");
                         return;
                     } else {
                         params = [{
@@ -152,8 +152,8 @@
                                 symbol: '3LECHES',
                                 decimals: 18
                             },
-                            rpcUrls: ['https://rpc-test.tresleches.finance'],
-                            blockExplorerUrls: ['https://explorer-test.tresleches.finance']
+                            rpcUrls: ['https://rpc-test.tresleches.finance/'],
+                            blockExplorerUrls: ['https://explorer-test.tresleches.finance/']
                         }]
                     }
                 }
