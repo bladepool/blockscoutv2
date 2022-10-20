@@ -217,11 +217,11 @@
       <div class="card-chain-info-supply">
           <div class="card-chain-supply">
             <span class="card-chain-supply--title">Total Supply</span>
-            <span class="card-chain-supply--data"><%= System.get_env("SUPPLY")(format: "#,###") %></span>
+            <span class="card-chain-supply--data"><%= BlockScoutWeb.Cldr.Number.to_string!(@total_supply, format: "#,###") %></span>
           </div>
           <div class="card-chain-supply">
             <span class="card-chain-supply--title">Total Circulating</span>
-            <span class="card-chain-supply--data"><%= System.get_env("CIRCULATION")(format: "#,###") %></span>
+            <span class="card-chain-supply--data"><%= BlockScoutWeb.Cldr.Number.to_string!(@total_supply, format: "#,###") %></span>
           </div>
       </div>
       <div class="card-chain-info-wallet">
