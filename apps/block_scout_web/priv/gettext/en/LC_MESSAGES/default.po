@@ -802,12 +802,12 @@ msgstr ""
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:104 lib/block_scout_web/templates/smart_contract/_functions.html.eex:104
 #: lib/block_scout_web/templates/smart_contract/_functions.html.eex:146
 msgid "ETH"
-msgstr "DND"
+msgstr "3LECHES"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
 msgid "ETH RPC API Documentation"
-msgstr "DND RPC API Documentation"
+msgstr "3LECHES RPC API Documentation"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address_contract/index.html.eex:76
@@ -874,7 +874,7 @@ msgstr ""
 #, elixir-format
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:103
 msgid "Eth RPC"
-msgstr "DND RPC"
+msgstr "3LECHES RPC"
 
 #, elixir-format
 #: lib/block_scout_web/templates/address/_current_coin_balance.html.eex:11
@@ -885,7 +885,7 @@ msgstr "DND RPC"
 #: lib/block_scout_web/templates/transaction/_tile_recent.html.eex:26 lib/block_scout_web/templates/transaction/overview.html.eex:411
 #: lib/block_scout_web/views/wei_helpers.ex:78
 msgid "Ether"
-msgstr "DND"
+msgstr "3LECHES"
 
 #, elixir-format
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:211
