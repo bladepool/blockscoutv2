@@ -5,7 +5,7 @@ $card-horizontal-padding: 30px;
 $card-vertical-padding: 30px;
 $card-background-1: $primary !default;
 $card-background-1-text-color: #fff !default;
-$card-tab-icon-color: #20b760 !default;
+$card-tab-icon-color: #ce0014 !default;
 $card-tab-icon-color-active: #fff !default;
 
 .card {
@@ -266,7 +266,7 @@ $card-tab-icon-color-active: #fff !default;
   .card-chain-supply {
     display: flex;
     flex-direction: column;
-    border-left: 5px solid #39B54A;
+    border-left: 5px solid #ce0014;
     padding-left: 15px;
     &:not(:first-child) {
       margin-top: 50px;
